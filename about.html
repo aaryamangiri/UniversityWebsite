@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st web design - Aaryaman and Ashish</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,800;1,100;1,500&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/a35aa41d24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/preview.jpg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="placement.html">PLACEMENT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+   
+      
+
+    </section>
+
+    <!---about us content-->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+            <h1>We Represent our nation, Therefore taking initiatives to make it more better.</h1>
+            <p>
+                Popular for a serene 68-acre modern campus, Imperial University, established in 2016, is affiliated with UGC. It is a philanthropic initiative of The Times of India Group, the leading publishing house of India.
+                30+ programs and 50+ leading technology specializations in Engineering, Management, Media, Law, and Liberal Arts, have made Imperial University sought-after recruitment destination among leading corporates in a short time, leading to a stellar placement record.
+            </p>
+            <a href="/contact.html" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/uni.png">
+        </div>
+      </div>
+    </section>
+
+    <section class="about-us">
+        <div class ="row">
+            <div class="about-col">
+                <img src="images/mission.png" alt="Mission">
+            </div>
+            <div class="about-col">
+                <h1>Mission</h1>
+                <p>
+                To develop as a benchmark University in higher and professional education sectors. To provide an Ivy League quality education and learning experience in the higher education space in a world-class infrastructure and
+                research-driven academic environment, to students looking for a well-rounded academic experience with enhanced employability prospects; and to harness human capital for sustainable competitive edge and social relevance.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+    
+<!----footer-->
+<section class="footer">
+    <h4>
+        About US
+    </h4>
+    <p>
+        One of the best college with very good reviews
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i></p>
+</section>
+
+
+
+
+
+
+
+
+<!---------Java script for toggle menu-------->
+    <script>
+        var navlinks = document.getElementById("navlinks")
+
+        function showMenu(){
+            navlinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+            
+        }
+    </script>
+
+    
+</body>
+</html>
